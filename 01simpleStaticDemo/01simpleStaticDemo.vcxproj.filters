@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Aurretik emandako goiburuak">
+      <UniqueIdentifier>{e0368235-37cc-4635-95f0-ef8f00044675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Aurretik emandako funtzioak">
+      <UniqueIdentifier>{2932f5a1-5af1-4790-90b7-46b0877e175d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guk sortutako funtzioak">
+      <UniqueIdentifier>{b80ec956-280e-4b76-9d94-eadbe9f97dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Guk sortutako goiburuak">
+      <UniqueIdentifier>{555b2ad2-6dd0-4248-8fd7-3ac896ffd9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01simpleStaticDemoMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\ebentoak.c">
+      <Filter>Source Files\Aurretik emandako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\graphics.c">
+      <Filter>Source Files\Aurretik emandako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\imagen.c">
+      <Filter>Source Files\Aurretik emandako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\soinua.c">
+      <Filter>Source Files\Aurretik emandako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simpleSdlWrapper\text.c">
+      <Filter>Source Files\Aurretik emandako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="gure_funtzioak.c">
+      <Filter>Source Files\Guk sortutako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="irabazi_eta_galdu_pantailak.c">
+      <Filter>Source Files\Guk sortutako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="jokalaria.c">
+      <Filter>Source Files\Guk sortutako funtzioak</Filter>
+    </ClCompile>
+    <ClCompile Include="menuko_funtzioak.c">
+      <Filter>Source Files\Guk sortutako funtzioak</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OurTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\ebentoak.h">
+      <Filter>Header Files\Aurretik emandako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\graphics.h">
+      <Filter>Header Files\Aurretik emandako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\imagen.h">
+      <Filter>Header Files\Aurretik emandako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\soinua.h">
+      <Filter>Header Files\Aurretik emandako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\simpleSdlWrapper\text.h">
+      <Filter>Header Files\Aurretik emandako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="gure_funtzioak.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="irabazi_eta_galdu_pantailak.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="irudi_guztiak.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="jokalaria.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="menuko_funtzioak.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+    <ClInclude Include="kanta_guztiak.h">
+      <Filter>Header Files\Guk sortutako goiburuak</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
