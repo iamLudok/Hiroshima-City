@@ -1,3 +1,4 @@
+Hiroshima-City
 GARRANTZITSUA Joko honetan jolasteko, Microsoft Visual Studio edo Microsoft Visual Studio Code programa zure ordenagailuan instalaturik izan beharko duzu.
 
 -Behin instalaturik, GitHub-eko repositorio honetan sakatu "code" botoian eta deskargatu .zip artxiboa. -Ondoren, deskonprimatu .zip artxiboa eta sartu karpeta berrian. -Behin karpetan sarturik, ireki .sln artxiboa, eta goiko barran, eman "Depurador local de Windows" edo "ejecutar y depurar" Visual Studio Coden.
